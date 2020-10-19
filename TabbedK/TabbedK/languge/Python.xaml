@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Python"
+             x:Class="TabbedK.eöement.Python">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Описание">
+        <StackLayout>
+            <Label Text="Python on üldotstarbeline interpreteeritav programmeerimiskeel, mida algselt arendati skriptimiskeeleks. Python võimaldab mitut programmeerimisstiili, näiteks objektorienteeritud, protseduraalset või funktsionaalset programmeerimist."/>
+            </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Функция" >
+        <StackLayout>
+        <Label Text="def is_palindrome(string): \n return string == ''.join(reversed(string)) \n print(is_palindrome('abba'))" BackgroundColor="Gray" FontSize="25" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Задание" >
+        <StackLayout>
+        <Label Text="Перепеши и попробуй запустить" FontSize="20"/>
+        <Image Source="bbp.png"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

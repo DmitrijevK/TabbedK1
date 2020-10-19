@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            Title="c"
+             x:Class="TabbedK.eöement.c">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Описание" >
+        <StackLayout>
+            <Image Source="mm.png" />
+            <Label Text="C on standardiseeritud programmeerimiskeel, mille lõid 1970. aastate alguses Brian Kernighan, Dennis Ritchie ja Ken Thompson eesmärgiga leida sobiv keel uue operatsioonisüsteemi UNIX programmeerimiseks."/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Кнопки" >
+        <StackLayout>
+            <Button Text="провести учение"
+             Clicked="KButton_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Задание" >
+        <StackLayout>
+            <Label Text="Выполните похожий дизайн" FontSize="20"/>
+            <Image Source="sml.png" />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
