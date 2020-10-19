@@ -7,5 +7,6 @@
     <TabbedPage.Children>
         <local:c />
         <local:Python />
+        <local:skuel/>
     </TabbedPage.Children>
 </TabbedPage>

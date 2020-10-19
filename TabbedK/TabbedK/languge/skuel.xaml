@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="skuel"
+             x:Class="TabbedK.languge.skuel">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Описание">
+        <StackLayout>
+            <Image Source="mmkm.png"/>
+            <Label Text="Struktuurpäringukeel on andmebaasi päringukeel, mis on loodud relatsioonbaasihaldurite jaoks. Algselt põhines ta relatsioonialgebral. See hõlmab andmete päringuid, uuendamisi, struktuuri loomist ja muutmist ning andmete juurdepääsu kontrolli."/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Факты" >
+        <StackLayout>
+            <Label Text="SQL может потребоваться проверить и настроить планы, которые составляются оптимизатором вручную. В таких случаях вам нужно будет снова проанализировать ваш запрос, посмотрев на план запроса." FontSize="25" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Задание" >
+        <StackLayout>
+            <Label Text="Перепеши и попробуй запустить" FontSize="20"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
